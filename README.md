@@ -57,6 +57,8 @@ graph TD
     class BR0,BR1 bridge
     class VETH_NS1,VETH_NS2,VETH_ROUTER_BR0,VETH_ROUTER_BR1,VETH_BR0_NS1,VETH_BR1_NS2,VETH_BR0_ROUTER,VETH_BR1_ROUTER interface
 
+```
+
 ## Features
 
 - Creates two isolated network namespaces (ns1, ns2)
