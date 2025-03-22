@@ -37,37 +37,6 @@ This project simulates two separate networks connected through a router using Li
   - Namespace 2 (ns2): 10.0.2.10/24
   - Router interface: 10.0.2.254/24
 
-## Usage
-
-Clone the repository:
-```bash
-git clone https://github.com/yourusername/network-namespace-sim.git
-cd network-namespace-sim
-chmod +x network-namespace-simulation.sh
-```
-
-Available commands:
-
-```bash
-# Complete setup and testing
-sudo ./network-namespace-simulation.sh all
-
-# Only setup the environment
-sudo ./network-namespace-simulation.sh setup
-
-# Test connectivity
-sudo ./network-namespace-simulation.sh test
-
-# Show current configuration
-sudo ./network-namespace-simulation.sh show
-
-# Clean up all resources
-sudo ./network-namespace-simulation.sh cleanup
-
-# Show help
-sudo ./network-namespace-simulation.sh help
-```
-
 ## Technical Details
 
 The script creates:
