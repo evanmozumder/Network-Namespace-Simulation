@@ -2,7 +2,6 @@
 
 Here's the complete README file code for you to copy and paste directly into your GitHub README.md file:
 
-```markdown
 # Linux Network Namespace Simulation
 
 A bash script for creating and managing multiple network namespaces connected via bridges and a router namespace.
@@ -10,8 +9,6 @@ A bash script for creating and managing multiple network namespaces connected vi
 ## Overview
 
 This project simulates two separate networks connected through a router using Linux network namespaces and bridges. It creates an isolated networking environment on a single Linux host.
-
-![Network Topology](topology.png)
 
 ## Features
 
